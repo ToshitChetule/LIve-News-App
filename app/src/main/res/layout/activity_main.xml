@@ -30,6 +30,20 @@
                 android:layout_marginRight="15dp"/>
 
 
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_view_bg"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:queryHint="Search Here..."
+                android:iconifiedByDefault="true"
+                app:iconifiedByDefault="false"
+                />
+
+
         </RelativeLayout>
         
         

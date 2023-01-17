@@ -5,11 +5,15 @@
     android:layout_margin="8dp"
     app:cardCornerRadius="4dp"
     app:cardBackgroundColor="@color/grey"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    >
+
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
+
 
         <ImageView
             android:layout_width="match_parent"
@@ -19,30 +23,34 @@
             />
 
         <TextView
+            android:id="@+id/idTVNewsHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/idTVNewsHeading"
             android:layout_below="@+id/idIVNews"
-            android:textColor="@color/yellow"
-            android:text="News Heading"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:padding="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
             android:maxLines="2"
-            android:layout_margin="3dp"
-            />
+            android:padding="3dp"
+            android:text="News Heading"
+            android:textColor="@color/yellow"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/idTVSubTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sub heading"
             android:layout_below="@id/idTVNewsHeading"
-            android:textColor="@color/white"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
             android:maxLines="3"
-            android:layout_margin="3dp"
             android:padding="3dp"
-            android:id="@+id/idTVSubTitle"
-            />
+            android:text="Sub heading"
+            android:textColor="@color/white" />
 
 
 
